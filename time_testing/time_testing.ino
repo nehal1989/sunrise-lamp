@@ -38,7 +38,7 @@
 // pull-up resistors on the data and clock signals.
 //
 
-#include 
+#include <DS3231.h>
 
 // Init the DS3231 using the hardware interface
 DS3231  rtc(SDA, SCL);
@@ -54,9 +54,9 @@ void setup()
   rtc.begin();
   
   // The following lines can be uncommented to set the date and time
-  //rtc.setDOW(WEDNESDAY);     // Set Day-of-Week to SUNDAY
-  //rtc.setTime(12, 0, 0);     // Set the time to 12:00:00 (24hr format)
-  //rtc.setDate(1, 1, 2014);   // Set the date to January 1st, 2014
+  //rtc.setDOW(THURSDAY);     // Set Day-of-Week to SUNDAY
+  //rtc.setTime(22, 43, 0);     // Set the time to 12:00:00 (24hr format)
+  //rtc.setDate(24, 1, 2019);   // Set the date to January 1st, 2014
 }
 
 void loop()
