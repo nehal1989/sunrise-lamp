@@ -19,5 +19,5 @@ void loop() {
   // (note: line 1 is the second row, since counting begins with 0):
   lcd.setCursor(0, 1);
   //Print a message to second line of LCD
-  lcd.print("Codebender");
+  lcd.print("Amira my lovey");
 }
